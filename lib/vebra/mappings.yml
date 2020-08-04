@@ -1,0 +1,132 @@
+---
+rm_qualifier:
+  0: Default
+  1: Price on Application
+  2: Guide Price
+  3: Fixed Price
+  4: Offers in Excess of
+  5: Offers in Region of
+  6: Sale by Tender
+  7: From
+  8: Not used / obsolete
+  9: Shared Ownership
+  10: Offers over
+  11: Part Buy Part Rent
+  12: Shared Equity
+  16: Coming soon
+web_status:
+  0:
+    sales: For Sale
+    lettings: To Let
+    published: true
+  1:
+    sales: Under Offer
+    lettings: Let
+    published: true
+  2:
+    sales: Sold
+    lettings: Under Offer
+    published: true
+  3:
+    sales: SSTC
+    lettings: Reserved
+    published: true
+  4:
+    sales: For Sale By Auction
+    lettings: Let Agreed
+    published: true
+  5:
+    sales: Reserved
+    published: true
+  6:
+    sales: New Instruction
+    published: true
+  7:
+    sales: Just on Market
+    published: true
+  8:
+    sales: Price Reduction
+    published: true
+  9:
+    sales: Keen to Sell
+    published: true
+  10:
+    sales: No Chain
+    published: true
+  11:
+    sales: Vendor will pay stamp duty
+    published: true
+  12:
+    sales: Offers in the region of
+    published: true
+  13:
+    sales: Guide Price
+    published: true
+  100:
+    lettings: To Let
+    published: true
+  101:
+    lettings: Let
+    published: true
+  102:
+    lettings: Under Offer
+    published: true
+  103:
+    lettings: Reserved
+    published: true
+  104:
+    lettings: Let Agreed
+    published: true
+  200:
+   published: false
+  201:
+    sales: Under Offer
+    published: false
+  202:
+    sales: Sold
+    published: false
+  203:
+    sales: SSTC
+    published: false
+  214:
+    lettings: Let
+    published: false
+  255:
+    published: false
+furnished:
+  0: Furnished
+  1: Part Furnished
+  2: Un-Furnished
+  3: Not Specified
+  4: Furnished / Un-Furnished
+  8: Not used
+  12: Not used
+  23: Not used
+  26: Not used
+rm_let_type_id:
+  0: Not Specified
+  1: Long Term
+  2: Short Term
+  3: Student
+  4: Commercial
+tenure:
+  0: Unspecified
+  1: Freehold
+  2: Leasehold
+  3: Leasehold With Share Of Freehold
+  4: Flying Freehold
+  5: Commonhold
+  6: Share of Freehold
+files_file_@type:
+  0: Image
+  1: Map
+  2: Floorplan
+  3: Vebra 360 tour
+  4: Ehouse (obsolete)
+  5: Ipix
+  6: Full details
+  7: PDF Details
+  8: External URL
+  9: Energy Performance Certificate
+  10: Home information pack
+  11: Virtual Tour - Absolute URL to a virtual tour

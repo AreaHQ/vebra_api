@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
-<property id="23072663" propertyid="2678001" system="B" firmid="1081" branchid="2" database="2" featured="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="http://webservices.vebra.com/export/xsd/v3/exportapi.xsd">
+<property id="23072663" propertyid="2678001" system="B" firmid="1081" branchid="2" database="2" featured="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="http://webservices.vebra.com/export/xsd/v11/exportapi.xsd">
   <reference>
     <agents />
   </reference>

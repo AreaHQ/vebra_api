@@ -12,9 +12,10 @@ You can set up your client credentials either in an initializer (exposing `Vebra
 # config/initializers/vebra.rb
     Vebra.config do |config|
       # client credentials
-      config.client_username = 'USER01'
-      config.client_password = 'abc123'
-      config.client_data_feed_id = 'MYAPI'
+      config.username = ''
+      config.password = ''
+      config.data_feed_id = ''
+      config.debug = true
     end
 
 

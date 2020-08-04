@@ -1,225 +1,227 @@
+# frozen_string_literal: true
+
 PropertyHash = {
-  :attributes => {
-    :property_id => 2678001,
-    :system => "B",
-    :firm_id => 1081,
-    :branch_id => 2,
-    :database => 2,
-    :featured => 0
+  attributes: {
+    property_id: 2_678_001,
+    system: 'B',
+    firm_id: 1081,
+    branch_id: 2,
+    database: 2,
+    featured: 0
   },
 
-  :vebra_ref => 23072663,
+  vebra_ref: 23_072_663,
 
-  :group => :lettings,
+  group: :lettings,
 
-  :agent_reference => nil,
+  agent_reference: nil,
 
-  :address => {
-    :name => "23-24",
-    :street => "Market Place",
-    :locality => nil,
-    :town => "Reading",
-    :county => "Berkshire",
-    :postcode => "RG1 2DE",
-    :custom_location => nil,
-    :display => "Market Place, Reading, Berkshire, RG1 2DE"
+  address: {
+    name: '23-24',
+    street: 'Market Place',
+    locality: nil,
+    town: 'Reading',
+    county: 'Berkshire',
+    postcode: 'RG1 2DE',
+    custom_location: nil,
+    display: 'Market Place, Reading, Berkshire, RG1 2DE'
   },
 
-  :price_attributes => {
-    :qualifier => "per month",
-    :currency => "GBP",
-    :rent => "pcm"
+  price_attributes: {
+    qualifier: 'per month',
+    currency: 'GBP',
+    rent: 'pcm'
   },
 
-  :price => 1000,
+  price: 1000,
 
-  :rm_qualifier => 0,
-  :available_on => Date.parse('12/03/2012'),
-  :uploaded_on => Date.parse('14/03/2012'),
-  :longitude => -0.969461,
-  :latitude => 51.45601,
-  :easting => 471594,
-  :northing => 173563,
-  :status => 'To Let',
-  :custom_status => "To Let",
-  :comm_rent => nil,
-  :premium => nil,
-  :service_charge => nil,
-  :rateable_value => nil,
-  :property_type => "House",
-  :furnished => "Furnished",
-  :rm_type => 8,
-  :let_bond => 0,
-  :rm_let_type_id => 0,
-  :bedrooms => 4,
-  :receptions => 2,
-  :bathrooms => 0,
-  :user_field_1 => nil,
-  :user_field_2 => 0,
-  :sold_on => nil,
-  :lease_ends_on => nil,
-  :instructed => nil,
-  :sold_price => nil,
-  :garden => false,
-  :parking => false,
-  :ground_rent => nil,
-  :commission => nil,
+  rm_qualifier: 0,
+  available_on: Date.parse('12/03/2012'),
+  uploaded_on: Date.parse('14/03/2012'),
+  longitude: -0.969461,
+  latitude: 51.45601,
+  easting: 471_594,
+  northing: 173_563,
+  status: 'To Let',
+  custom_status: 'To Let',
+  comm_rent: nil,
+  premium: nil,
+  service_charge: nil,
+  rateable_value: nil,
+  property_type: 'House',
+  furnished: 'Furnished',
+  rm_type: 8,
+  let_bond: 0,
+  rm_let_type_id: 0,
+  bedrooms: 4,
+  receptions: 2,
+  bathrooms: 0,
+  user_field_1: nil,
+  user_field_2: 0,
+  sold_on: nil,
+  lease_ends_on: nil,
+  instructed: nil,
+  sold_price: nil,
+  garden: false,
+  parking: false,
+  ground_rent: nil,
+  commission: nil,
 
-  :area => {
-    :metric => {
-      :unit => "sqm",
-      :min => 0,
-      :max => 0
+  area: {
+    metric: {
+      unit: 'sqm',
+      min: 0,
+      max: 0
     },
 
-    :imperial => {
-      :unit => "sqft",
-      :min => 0,
-      :max => 0
+    imperial: {
+      unit: 'sqft',
+      min: 0,
+      max: 0
     }
   },
 
-  :description => "Property Description",
+  description: 'Property Description',
 
-  :energy_performance => {
-    :energy_efficiency => {
-      :current => 63,
-      :potential => 68
+  energy_performance: {
+    energy_efficiency: {
+      current: 63,
+      potential: 68
     },
 
-    :environmental_impact => {
-      :current => 54,
-      :potential => 57
+    environmental_impact: {
+      current: 54,
+      potential: 57
     }
   },
 
-  :rooms => [
+  rooms: [
     {
-      :vebra_ref => 1,
-      :name => "Bedroom 1",
-      :room_type => "bedroom",
-      :file => nil,
-      :dimensions => {
-        :metric => nil,
-        :imperial => "Double",
-        :mixed => nil
+      vebra_ref: 1,
+      name: 'Bedroom 1',
+      room_type: 'bedroom',
+      file: nil,
+      dimensions: {
+        metric: nil,
+        imperial: 'Double',
+        mixed: nil
       }
     },
     {
-      :vebra_ref => 2,
-      :name => "Bedroom 2",
-      :room_type => "bedroom",
-      :file => nil,
-      :dimensions => {
-        :metric => nil,
-        :imperial => "Double",
-        :mixed => nil
+      vebra_ref: 2,
+      name: 'Bedroom 2',
+      room_type: 'bedroom',
+      file: nil,
+      dimensions: {
+        metric: nil,
+        imperial: 'Double',
+        mixed: nil
       }
     },
     {
-      :vebra_ref => 3,
-      :name => "Bedroom 3",
-      :room_type => "bedroom",
-      :file => nil,
-      :dimensions => {
-        :metric => nil,
-        :imperial => "Double",
-        :mixed => nil
+      vebra_ref: 3,
+      name: 'Bedroom 3',
+      room_type: 'bedroom',
+      file: nil,
+      dimensions: {
+        metric: nil,
+        imperial: 'Double',
+        mixed: nil
       }
     },
     {
-      :vebra_ref => 4,
-      :name => "Bedroom 4",
-      :room_type => "bedroom",
-      :file => nil,
-      :dimensions => {
-        :metric => nil,
-        :imperial => "Single",
-        :mixed => nil
+      vebra_ref: 4,
+      name: 'Bedroom 4',
+      room_type: 'bedroom',
+      file: nil,
+      dimensions: {
+        metric: nil,
+        imperial: 'Single',
+        mixed: nil
       }
     },
     {
-      :vebra_ref => 5,
-      :name => "Reception 1",
-      :room_type => "reception",
-      :file => nil,
-      :dimensions => {
-        :metric => nil,
-        :imperial => "Lounge",
-        :mixed => nil
+      vebra_ref: 5,
+      name: 'Reception 1',
+      room_type: 'reception',
+      file: nil,
+      dimensions: {
+        metric: nil,
+        imperial: 'Lounge',
+        mixed: nil
       }
     },
     {
-      :vebra_ref => 6,
-      :name => "Reception 2",
-      :room_type => "reception",
-      :file => nil,
-      :dimensions => {
-        :metric => nil,
-        :imperial => "Dining Room",
-        :mixed => nil
+      vebra_ref: 6,
+      name: 'Reception 2',
+      room_type: 'reception',
+      file: nil,
+      dimensions: {
+        metric: nil,
+        imperial: 'Dining Room',
+        mixed: nil
       }
     }
   ],
 
-  :energy_reports => [],
+  energy_reports: [],
 
-  :disclaimers => [],
+  disclaimers: [],
 
-  :bullets => [
-    "Custom bullet 1",
-    "Custom bullet 2",
-    "Parking permit",
-    "Garage",
-    "Original cast iron fireplaces",
-    "Fully double glazed",
-    "Detached house",
-    "Semi detached house",
-    "Excellent decorative order",
-    "Lounge"
+  bullets: [
+    'Custom bullet 1',
+    'Custom bullet 2',
+    'Parking permit',
+    'Garage',
+    'Original cast iron fireplaces',
+    'Fully double glazed',
+    'Detached house',
+    'Semi detached house',
+    'Excellent decorative order',
+    'Lounge'
   ],
 
-  :files => {
-    :images => [
+  files: {
+    images: [
       {
-        :vebra_ref => 0,
-        :name => nil,
-        :url => "http://images.vebra.com/large/atlantis/rentals/ecimage1/002b2678001.jpg",
-        :updated_at => Time.parse('14/03/2012 15:11:00')
+        vebra_ref: 0,
+        name: nil,
+        url: 'http://images.vebra.com/large/atlantis/rentals/ecimage1/002b2678001.jpg',
+        updated_at: Time.parse('14/03/2012 15:11:00')
       }
     ],
 
-    :maps => [],
-    :floorplans => [],
-    :tours => [],
-    :ehouses => [],
-    :ipixes => [],
+    maps: [],
+    floorplans: [],
+    tours: [],
+    ehouses: [],
+    ipixes: [],
 
-    :pdfs => [
+    pdfs: [
       {
-        :vebra_ref => 1,
-        :name => nil,
-        :url => "http://images.vebra.com/atlantis/rentals/details/002b2678001.pdf",
-        :updated_at => Time.parse('14/03/2012 15:11:00')
+        vebra_ref: 1,
+        name: nil,
+        url: 'http://images.vebra.com/atlantis/rentals/details/002b2678001.pdf',
+        updated_at: Time.parse('14/03/2012 15:11:00')
       }
     ],
 
-    :urls => [],
+    urls: [],
 
-    :energy_certificates => [
+    energy_certificates: [
       {
-        :vebra_ref => 2,
-        :name => 'Energy efficiency chart',
-        :url => 'http://images.vebra.com/home/hip/EE_0275_063_068.png'
+        vebra_ref: 2,
+        name: 'Energy efficiency chart',
+        url: 'http://images.vebra.com/home/hip/EE_0275_063_068.png'
       },
       {
-        :vebra_ref => 3,
-        :name => 'Environmental impact chart',
-        :url => 'http://images.vebra.com/home/hip/EI_0275_054_057.png'
+        vebra_ref: 3,
+        name: 'Environmental impact chart',
+        url: 'http://images.vebra.com/home/hip/EI_0275_054_057.png'
       }
     ],
-    
-    :info_packs => []
+
+    info_packs: []
   }
 
-}
+}.freeze

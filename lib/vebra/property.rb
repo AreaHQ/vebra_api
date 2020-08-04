@@ -1,22 +1,29 @@
-module Vebra
-  class Property
-    attr_reader :attributes, :branch, :xml
+# frozen_string_literal: true
 
+module Vebra
+  class Property < Model
     # property = Vebra::Property.new(nokogiri_xml_object, vebra_branch_object)
 
-    def initialize(nokogiri_xml, branch)
-      @xml        = nokogiri_xml.to_xml
-      @branch     = branch
-      @attributes = Vebra.parse(nokogiri_xml)
+    def branch
+      relations[:branch]
     end
 
     # Retrieve the full set of attributes for this branch
     def get_property
-      nokogiri_xml_full = branch.client.call(attributes[:url]).parsed_response
-      @xml              = nokogiri_xml_full.to_xml
-      nokogiri_xml      = nokogiri_xml_full.css('property')
-      @attributes.merge!(Vebra.parse(nokogiri_xml))
+      @xml = client.call(url).parsed_response.css('property').first
+      @attributes.merge!(parse_xml_to_hash)
     end
 
+    def group
+      @group ||= [2, 118].include?(attributes[:@database].to_i) ? 'lettings' : 'sales'
+    end
+
+    def web_status
+      attributes[:web_status][group]
+    end
+
+    def published
+      attributes[:web_status]['published']
+    end
   end
 end

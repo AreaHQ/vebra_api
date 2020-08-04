@@ -1,6 +1,7 @@
+# frozen_string_literal: true
+
 module Vebra
   class Response
-
     attr_accessor :response_object, :parsed_response
 
     # Parse the XML body from a Net::HTTP response object
@@ -10,6 +11,5 @@ module Vebra
       @response_object = response
       @parsed_response = Nokogiri::XML(response.body)
     end
-
   end
 end
